@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#bars {
+    width: 505px;
+    height: 300px;
+    margin: 50px auto;
+    position: relative;
+}
+#bars .bar {
+    float: left;
+    margin: 12px;
+}
+#bars .bar div {
+    width: 20px;
+    background: red;
+    position: absolute;
+    bottom: 0;
+}
